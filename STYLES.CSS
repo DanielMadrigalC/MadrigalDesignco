@@ -397,6 +397,29 @@ body {
   }
 }
 
+/* Orden en móvil: primero datos, luego contacto */
+.contact-info {
+  order: 1;
+}
+
+.contact-form {
+  order: 2;
+}
+
+/* Orden en desktop: primero contacto, luego datos */
+@media (min-width: 768px) {
+  .contact-info {
+    order: 2;
+    width: 45%;
+  }
+  
+  .contact-form {
+    order: 1;
+    width: 50%;
+    margin: 0;
+  }
+}
+
 /* ===== VALIDACIÓN ===== */
 .error-message {
   display: none;
