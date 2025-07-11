@@ -271,6 +271,21 @@ body {
     }
 }
 
+/* Título en blanco */
+.contact-main-title {
+  text-align: center;
+  color: white !important; /* ya lo tienes */
+  /* ya tienes otras reglas */
+}
+
+/* Subtítulo un poco más grande y amarillo */
+.contact-subtitle {
+  color: #f1c40f; /* amarillo vibrante */
+  font-size: 1.4rem; /* un poco más grande que el normal */
+  text-align: center; /* para que quede centrado con el título */
+  margin-bottom: 1.5rem; /* separación abajo */
+}
+
 /* ===== CONTACTO - ESTRUCTURA RESPONSIVE ===== */
 
 .contact-section {
