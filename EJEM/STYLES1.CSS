@@ -1,0 +1,101 @@
+:root {
+    --primary-color: #d6c3a5; /* Beige suave */
+    --accent-color: #8b5e3c;  /* Marrón cálido */
+    --text-color: #333;
+    --white: #ffffff;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: var(--primary-color);
+    color: var(--text-color);
+    line-height: 1.6;
+}
+
+.main-header {
+    background-color: var(--accent-color);
+    color: var(--white);
+    text-align: center;
+    padding: 2rem 1rem;
+}
+
+.main-header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.subtitle {
+    font-size: 1.2rem;
+    font-weight: 300;
+}
+
+.section-title {
+    text-align: center;
+    font-size: 2rem;
+    margin: 2rem 0 1rem;
+    color: var(--accent-color);
+}
+
+.menu-section {
+    padding: 1rem;
+}
+
+.menu-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 1.5rem;
+    padding: 1rem;
+}
+
+.menu-item {
+    background-color: var(--white);
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    text-align: center;
+    padding: 1rem;
+    transition: transform 0.3s ease;
+}
+
+.menu-item:hover {
+    transform: translateY(-5px);
+}
+
+.menu-item img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 0.8rem;
+}
+
+.menu-item h3 {
+    color: var(--accent-color);
+    margin-bottom: 0.5rem;
+}
+
+.menu-item p {
+    font-size: 0.95rem;
+    margin-bottom: 0.5rem;
+}
+
+.price {
+    font-weight: bold;
+    font-size: 1rem;
+    color: var(--accent-color);
+}
+
+.main-footer {
+    background-color: var(--accent-color);
+    color: var(--white);
+    text-align: center;
+    padding: 1rem 0;
+    font-size: 0.9rem;
+    margin-top: 2rem;
+}
