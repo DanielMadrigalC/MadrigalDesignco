@@ -322,7 +322,7 @@ body {
   font-size: 1.8rem;
 }
 
-/* ===== FORMULARIO - ESTILOS ESPECÍFICOS ===== */
+/* ===== FORMULARIO ===== */
 .input-group {
   display: flex;
   flex-direction: column;
